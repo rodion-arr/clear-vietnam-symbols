@@ -21,6 +21,6 @@
         "phpunit/phpunit": "^9.1"
     },
     "scripts": {
-        "test-ci": "./vendor/bin/phpunit -v --coverage-text --debug --colors=never"
+        "test-ci": "./vendor/bin/phpunit -v --coverage-clover=coverage.xml --coverage-text --debug --colors=never"
     }
 }
