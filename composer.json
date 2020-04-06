@@ -1,0 +1,23 @@
+{
+    "name": "rodion-arr/clear-vietnam-symbols",
+    "description": "A tiny function to convert Vietnamese symbols into ASCII",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rodion Abdurakhimov",
+            "email": "rodion.arr.web@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "RodionARR\\": "src/RodionARR"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.1"
+    }
+}
